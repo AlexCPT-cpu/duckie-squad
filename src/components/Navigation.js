@@ -91,7 +91,7 @@ cursor: pointer;
 const HamburgerMenu = styled.span`
 width: ${props => props.click ? '2rem' : '1.5rem'};
 height:2px;
-background: ${props => props.theme.text};
+background: ${props => props.theme.body};
 
 position: absolute;
 top: 2rem;
@@ -116,7 +116,7 @@ transition: all 0.3s ease;
     height: 2px;
     height: 2px;
     right: ${props => props.click ? '-2px' : '0'};;
-    background: ${props => props.theme.text};
+    background: ${props => props.theme.body};
     position: absolute;
     transition: all 0.3s ease;
 }
